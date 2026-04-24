@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python / temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+
+# Power BI temporary/cache files
+*.tmp
+*.bak
+
+# Local exports
+exports/
+output/
+
+# Keep Power BI project file tracked
+!dashboard/*.pbix
