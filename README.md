@@ -1,129 +1,53 @@
-# Credit Risk Analytics Dashboard | Power BI Portfolio Project
+# 💳 Credit Risk Analytics Dashboard (Power BI)
 
-Dieses Projekt zeigt ein **Power-BI-Dashboard zur Analyse von Kreditrisiko, Portfolioqualität und Business-Impact**. Es ist als Portfolio-Projekt für Data-Analyst-, BI-Analyst- und Financial-Services-Analytics-Rollen aufgebaut.
+## 🚀 Business Problem
 
-## Projektziel
+Banks need to monitor credit risk to avoid financial losses caused by loan defaults.
+Without clear KPIs, risk management becomes inefficient.
 
-Das Dashboard unterstützt ein fiktives Finanzunternehmen dabei, Kreditentscheidungen und Portfoliorisiken besser zu verstehen.
+---
 
-Zentrale Fragen:
+## 📊 Solution
 
-- Wie hoch ist die Ausfallquote im Kreditportfolio?
-- Welche Kundengruppen zeigen erhöhtes Risiko?
-- Wie unterscheiden sich genehmigte und abgelehnte Anträge?
-- Welche Faktoren beeinflussen Score, Approval und Default?
-- Wie wirken sich Risiko und Genehmigungen auf Profitabilität aus?
+Developed an interactive Power BI dashboard to track **credit risk metrics and financial performance**.
 
-## Repository-Inhalt
+---
 
-```text
-credit-risk-powerbi-portfolio/
-├── dashboard/
-│   └── credit_risk_TEMPLATE.pbix
-├── data/
-│   ├── raw/
-│   └── sample/
-│       └── sample_credit_risk_data.csv
-├── docs/
-│   ├── data_dictionary.md
-│   ├── dax_measures.md
-│   ├── business_case.md
-│   └── github_upload_guide_mac.md
-├── images/
-│   └── add_dashboard_screenshots_here.md
-├── assets/
-├── .gitignore
-├── LICENSE
-└── README.md
-```
+## 📈 Key Features
 
-## Tools
+* Default Rate monitoring
+* Loan distribution analysis
+* Risk score segmentation
+* Time-based trend analysis
 
-- Power BI Desktop
-- DAX
-- Power Query
-- CSV Data
-- Git / GitHub
+---
 
-## Dashboard-Datei
+## 📊 Key Insights
 
-Die Power-BI-Datei befindet sich hier:
+* Identified high-risk customer segments
+* Detected patterns in loan defaults
+* Enabled faster risk evaluation through interactive filters
 
-```text
-dashboard/credit_risk_TEMPLATE.pbix
-```
+---
 
-> Hinweis für macOS: Power BI Desktop läuft offiziell nicht nativ auf macOS. Du kannst es über Windows VM, Parallels, Remote Windows-PC oder Power BI Service nutzen.
+## 💰 Business Impact
 
-## Beispiel-Datensatz
+* Supports risk management decisions
+* Reduces potential financial losses
+* Improves transparency for stakeholders
 
-Ein synthetischer Beispieldatensatz liegt hier:
+---
 
-```text
-data/sample/sample_credit_risk_data.csv
-```
+## 🖥️ Dashboard Preview
 
-Die Daten sind künstlich generiert und enthalten keine echten personenbezogenen Daten.
+👉 *(Screenshots einfügen!)*
 
-## Wichtige KPIs
+---
 
-- Default Rate
-- Approval Rate
-- Average Credit Score
-- Total Revenue
-- Total Cost
-- Estimated Profit
-- Debt-to-Income Ratio
-- Late Payment Distribution
-- Portfolio Profitability
+## ⚙️ Tech Stack
 
-## Projekt-Highlights
+* Power BI
+* DAX (KPIs & Measures)
+* Data Modeling (Star Schema)
 
-- Kreditrisiko-Analyse
-- Approval- und Default-Auswertung
-- Segmentanalyse nach Region und Beschäftigungsstatus
-- Profitabilitätsanalyse
-- Business-orientierte Interpretation
-- Portfolio-taugliche Repository-Struktur
-
-## Screenshots
-
-Bitte exportiere nach dem Öffnen des Dashboards Screenshots aus Power BI und speichere sie in `images/`.
-
-Empfohlene Dateien:
-
-```text
-images/overview.png
-images/risk_analysis.png
-images/customer_segments.png
-images/profitability.png
-```
-
-Danach kannst du sie hier einbinden:
-
-```markdown
-![Dashboard Overview](images/overview.png)
-```
-
-## Business Interpretation
-
-Dieses Projekt ist besonders relevant für:
-
-- Banken
-- Kreditinstitute
-- Fintechs
-- Versicherungen mit Risikomodellen
-- Financial-Services-Analytics
-
-## Weiterentwicklungsideen
-
-- SQL-Datenbank als Quelle ergänzen
-- Python-Modell zur Default-Prognose anbinden
-- Power-BI-Parameter für flexible Kundendaten einbauen
-- PDF-Management-Report ergänzen
-- Deployment im Power BI Service
-- Row-Level Security für Kundengruppen
-
-## Autor
-
-Dieses Projekt wurde als Portfolio-Projekt für Financial Analytics und Business Intelligence erstellt.
+---
