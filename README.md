@@ -3,13 +3,24 @@
 ## 🚀 Business Problem
 
 Banks need to monitor credit risk to avoid financial losses caused by loan defaults.
-Without clear KPIs, risk management becomes inefficient.
+Without clear KPIs, risk management becomes inefficient and decisions are harder to justify.
 
 ---
 
 ## 📊 Solution
 
 Developed an interactive Power BI dashboard to track **credit risk metrics and financial performance**.
+The dashboard enables stakeholders to quickly identify risks, trends, and opportunities.
+
+---
+
+## 📈 Key Metrics
+
+* Default Rate (%)
+* Total Loan Volume
+* Average Risk Score
+* Approval Rate
+* Risk Segment Distribution
 
 ---
 
@@ -32,15 +43,32 @@ Developed an interactive Power BI dashboard to track **credit risk metrics and f
 
 ## 💰 Business Impact
 
-* Supports risk management decisions
+* Supports data-driven risk management decisions
 * Reduces potential financial losses
 * Improves transparency for stakeholders
+* Enables faster and more efficient reporting
 
 ---
 
 ## 🖥️ Dashboard Preview
 
 ![Credit Risk Dashboard](images/dashboard_overview.png)
+
+---
+
+## 📐 DAX Measures
+
+* Default Rate = Defaults / Total Loans
+* Average Risk Score
+* Total Loan Volume
+
+---
+
+## 🧩 Data Model
+
+* Star Schema structure
+* Fact table: Loans
+* Dimension tables: Customers, Time
 
 ---
 
