@@ -40,7 +40,7 @@ Developed an interactive Power BI dashboard to track **credit risk metrics and f
 
 ## 🖥️ Dashboard Preview
 
-👉 *(Screenshots einfügen!)*
+![Credit Risk Dashboard](images/dashboard_overview.png)
 
 ---
 
